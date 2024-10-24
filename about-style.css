@@ -1,0 +1,197 @@
+:root{
+    --blue: #3f153f;
+    --pink: #A2124E;
+    --hover: #b51759;
+    --softpink:  #f1c4d7;
+}
+.about{
+    width: 100%;
+   
+}
+.sub-about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.img-div{
+    width: 40%;  
+    /* background-color: orange; */
+}
+.img-div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 100px;
+    
+}
+.about-text{
+    width: 50%;
+    font-size: 15px;
+    font-weight: 300;
+    width: 50%;
+    padding: 15px;
+}
+.about-text p{
+     color: var(--pink);
+     text-align: justify;
+}
+.about-text h4{
+    
+   font-size: 25px;
+   margin-bottom: 10px;
+}
+/*End about-contant */
+
+/*Start messios&vission-contant */
+
+.messionVisson{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    margin: 40px 10px;
+    color: white;
+}
+.messionVisson img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: -20px;
+}
+.vession,.mession{
+    width: 40%;
+    height: 220px;
+    background-color: var(--pink);
+   padding: 5px 15px;
+    border-radius: 10px;
+    
+}
+.messionVisson p{
+  
+    font-size: 12px;
+}
+.vession:hover,.mession:hover{
+    background-color: var(--blue);
+}
+/*End messios&vission-contant */
+
+/*Start core-values-contant */
+
+.core-values{
+    width: 100%;
+    height: 350px;
+    background-color: var(--pink);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.core-values h3{
+    font-size: 20px;
+    color:white;
+    padding: 25px 8px;
+    font-weight: 600;
+}
+.sub-core-values{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.div-core-values{
+    width: 16%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   background-color: white;
+   border: 1px solid var(--pink);
+    border-radius: 8px;
+    color: var(--pink);
+    margin-top: 10px;
+}
+.div-core-values:hover{
+    background-color: var(--blue);
+    color: white;
+}
+.div-core-values img{
+    width: 80px;
+    height: 100px;
+    margin-bottom: -20px;
+ 
+  
+}
+.div-core-values h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+.div-core-values p{
+    font-size:13px;
+    font-weight: 400;
+}
+/*End core-values-contant */
+
+/*Start our-approches-contant */
+.our-approches{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+
+}
+.our-approches h3{
+    text-align: center;
+    color: var(--pink);
+    margin-top: 25px;
+    font-size: 23px;
+    /* background-color: #3f153f; */
+}
+.sub-our-approches{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 5px;
+    margin: 20px 0px;
+    /* background-color: var(--pink); */
+}
+.div-our-approches{
+    width: 16%;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.div-our-approches img{
+   width: 120px;
+   height: 125px;
+   margin-bottom: -26px;
+}
+.div-our-approches h3{
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: -10px;
+    color: var(--pink);
+}
+
+.div-our-approches:hover{
+    background-color:var(--softpink) ;
+    border: 2px solid var(--pink);
+    border-radius: 10px;
+   color: var(--blue);
+
+}
+/*End our-approches-contant */
