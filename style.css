@@ -1432,7 +1432,7 @@ side .nav-center{
 /*          voits               */
 
 .vote{
-    width:75%;
+    width:60%;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -1445,7 +1445,7 @@ side .nav-center{
     width: 70px;
 }
 .sub-vote{
-    width: 100%;
+    width: 90%;
     padding: 25px;
     background-color: val(--softpink);
     background-color: rgb(244, 230, 233);
