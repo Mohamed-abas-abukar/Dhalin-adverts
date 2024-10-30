@@ -1111,7 +1111,8 @@ side .nav-center{
         width:100%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
-      
+        place-tems:center;
+        place-content:center;
         gap: 10px;
         
     }
@@ -1120,7 +1121,7 @@ side .nav-center{
         width: 70px;
     }
     .sub-vote{
-        width: 100%;
+        width: 80%;
         padding: 25px;
         background-color: val(--softpink);
         background-color: rgb(244, 230, 233);
