@@ -1,0 +1,449 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --blue: #3f153f;
+    --pink: #A2124E;
+    --hover: #b51759;
+    --softpink:  #f1c4d7;
+    --notmine: #FCD7C3;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+  
+}
+
+/*Start contact-section */
+.contact-section{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    column-gap: 10px;
+    place-content: center;
+    place-items: center;
+    background-color: var(--notmine);
+
+}
+.sub-contact{
+    width:250px;
+    height: 170px;
+    background-color: var(--pink);
+    position: relative;
+    color: white;
+    border-radius: 5px;
+    margin-top: -50px;
+    position: sticky;
+}
+.social-icons{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    background-color: var(--blue);
+    border-radius: 25px;
+    margin-left:30px;
+    margin-top: -20px;
+    
+}
+.social-icons i{
+    color: white;
+    font-size: 18px;
+   display: flex;
+   justify-content: center;
+ margin-top: 17px;
+
+}
+.contact-text{
+    padding: 50px 10px;
+}
+
+.contact-text .dash{
+    width: 100%;
+    
+}
+.contact-text h3{
+    margin-bottom: 10px;
+}
+.contact-text p{
+    font-size: 12px;
+}
+
+
+.help{
+    width: 100%;
+    height: 520px;
+    background-color: var(--notmine);
+    margin-bottom: 40px;
+}
+.help h2{
+    width: 380px;
+    font-size: 30px;
+    font-weight:600;
+   margin: 50px auto;
+    color: var(--pink);
+}
+
+.inputs{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+   
+}
+
+.inputs .col{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    place-content: center;
+    place-items:center;
+   
+}
+
+.inputs .row{
+    width: 600px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.row .row3{
+    width: 100%;
+   
+}
+
+.row3 .col-5{
+    width: 100%;
+}
+
+.row label{
+    height: 35px;
+    background-color: white;
+    color: var(--pink);
+    padding: 8px 5px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+input{
+    width: 65%;
+    height: 35px;
+    font-size:12px;
+    padding: 6px 0px;
+    color: var(--pink);
+    border-radius: 3px;
+    border:none;
+    outline: none;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 570px;
+    height: 110px;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 15px;
+   resize: none;
+   color: var(--pink);
+}
+ .row4{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.row4 button {
+    width: 130px;
+    height: 40px;
+    font-size:12px;
+    padding: 6px 0px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    background-color: var(--pink);
+    color: white;
+    margin: 0px auto;
+    margin-left: 250px;
+}
+/*End contact-section */
+
+
+@media  screen and (min-width:768px) and (max-width:1023px) {
+    side{
+        display: none;
+        width: 100%;
+        background-color:white;
+         position: fixed;
+         top: 0;
+         left: 0;
+         bottom: 0;
+         z-index: 999;
+      
+     }
+
+     /*Start contact-section */
+.contact-section{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,290px);
+    column-gap: 10px;
+    place-content: center;
+    place-items: center;
+    background-color: var(--notmine);
+
+}
+
+.sub-contact{
+    width:220px;
+    height: 170px;
+    background-color: var(--pink);
+    position: relative;
+    color: white;
+    border-radius: 5px;
+    margin-top: -50px;
+    position: sticky;
+}
+
+    
+}
+
+
+
+
+@media screen and (max-width:767px) {
+   
+     /*                         Navbar       */
+     nav{
+        display: block;
+    }
+    .nav-left{
+        margin-left: 0px;
+    }
+    .nav-right{
+        display: none;
+    }
+    /* .nav-center {
+      display: none;
+    
+    } */
+
+/*               Side bar Menu */
+/* .nav-center{
+    display: none;
+} */
+nav .nav-active{
+    display: none;
+ }
+side{
+    width: 90%;
+    background-color:white;
+    
+    position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     z-index: 999;
+    
+ }
+ 
+side {
+    display: none;
+}
+side .nav-center{
+    margin-top: -20px;
+}
+ .nav-left {
+    
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ 
+ .nav, .burger{
+    float: right;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    font-size: 30px;
+    color: var(--pink);
+    cursor: pointer;
+ }
+
+ .nav-center{
+    display: block;
+  
+    
+ }
+ .nav-center ul {
+    display: block;
+    margin: 40px auto;
+ }
+
+
+ .nav-center ul li{
+    font-size: 18px;
+    margin: 40px auto;
+
+ }
+
+
+
+
+    /*Start contact-section */
+    .contact-section{
+        width: 100%;
+        height: 600px;
+        display: grid;
+        grid-template-columns:1fr;
+        background-color: var(--notmine);
+  
+    }
+.sub-contact{
+    width:300px;
+    height: 170px;
+    background-color: var(--pink);
+    color: white;
+    border-radius: 5px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.social-icons{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--blue);
+    border-radius: 25px;
+    
+ 
+}
+.social-icons i{
+    color: white;
+    font-size: 18px;
+   display: flex;
+   justify-content: center;
+ margin-top: 17px;
+
+}
+.contact-text{
+    padding: 50px 10px;
+}
+
+.contact-text h3{
+    margin-bottom: 10px;
+}
+.contact-text p{
+    font-size: 14px;
+}
+
+
+
+.help{
+    width: 100%;
+    height: 700px;
+    background-color: var(--notmine);
+    margin-bottom: 60px;
+}
+.help .help-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.help h2{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    font-weight:500;
+   margin: 10px auto;
+    color: var(--pink);
+}
+
+    
+.inputs{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.inputs .col{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-rows:1fr;
+    place-items:center;
+}
+
+.inputs .row{
+    width: 90%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    place-content: center;
+    gap: 20px;
+  
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    font-size:12px;
+    padding: 6px 0px;
+    color: var(--pink);
+    border-radius: 3px;
+    border:none;
+    outline: none;
+    padding-left: 10px;
+}
+.row .row3{
+    width: 100%;
+    
+}
+label{
+    margin-bottom: 10px;
+    padding: 4px;
+    font-size: 12px;
+ 
+}
+
+textarea{
+    width: 74%;
+    height: 110px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 10px;
+   resize: none;
+   margin-top: 40px;
+    margin-left: 35px;
+
+}
+ .row4 button{
+    margin: 10px;
+ }
+}
+
+
+

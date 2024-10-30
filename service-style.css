@@ -1,0 +1,900 @@
+
+
+/* Start main-contat*/
+
+.main-contant{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right , var(--pink), var(--blue) );
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.m-c-left{
+    /* background-color: rgb(128, 0, 255); */
+    width: 50%;
+    /* margin-left: 15px; */
+
+}
+.m-c-left .title-service{
+    font-size: 10px;
+    font-weight: 500;
+  
+}
+
+
+.m-c-right{
+    width: 40%;
+    display: flex;
+   justify-content: flex-end;
+    /* background-color: aqua; */
+    margin-right: 10px;
+}
+.m-c-right .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.m-c-right .left i{
+    font-size: 15px;
+}
+.left h6{
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.left p{
+    margin-right: 10px;
+}
+
+
+
+
+/* End main-contat*/
+
+
+/* End service-contat*/
+.service-content{
+    width: 100%;
+   padding-bottom: 40px;
+   margin: 15px 0px;
+}
+.service-content img{
+    width: 100px;
+    height: 120px;
+}
+.service-content h3 {
+    padding: 40px 0px 30px 0px;
+    color: var(--pink);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.services{
+    max-width: 100%;
+    display: grid;
+   padding: 30px 0px;
+
+}
+
+
+/* End service-contat*/
+
+
+
+/* Start graph package-contat*/
+.graphic-d-packages{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    padding: 0px 30px;
+   
+    color: var(--pink);
+    
+}
+.graphic-d-packages h3{
+    font-size: 26px;
+    margin: 19px 0px;
+    font-weight: 500;
+}
+.graphic-d-packages h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 26px;
+    
+}
+.sub-graphic-d-packages{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-content: center;
+    padding: 10px 20px;
+    row-gap: 25px;
+  
+  
+}
+.g-div-charts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g-charts{
+    width: 270px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FCD7C3;
+    color: white;
+    border-radius: 10px;
+    padding: 40px 10px;
+ 
+}
+
+.g-charts h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.g-d-p-4{
+    font-size: 30px;
+    font-weight: 600;
+    color:var(--pink);
+    margin: 40px 0px 80px;
+
+}
+.g-h4{
+    font-size: 30px;
+    font-weight: 600;
+    color:var(--pink);
+    
+}
+
+
+.g-charts ul{
+    width: 240px;
+    /* background-color: orange; */
+    font-size:12px;
+
+    color: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+ 
+}
+.g-charts u li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.g-charts ul li span {
+   margin-left: 6px;
+   font-weight: 500;
+}
+
+.g-charts .purchase-btn{
+    width:200px;
+    height:50px;
+    padding: 10px 7px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.g-charts .purchase-btn:hover{
+    background-color: var(--blue);
+}
+.g-charts .md-purchase-btn{
+    background-color: var(--blue);
+}
+.g-charts .md-purchase-btn:hover{
+    background-color: var(--hover);
+}
+
+/* Start social media package */
+.social-mr-text{
+    width: 400px;
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+/* End social media package */
+
+
+/* End graph package-contat*/
+
+
+
+/* Start Clients-contat*/
+.clients h3{
+    color: var(--pink);
+}
+
+/* Start Clients-contat*/
+
+
+/* Start found-contat*/
+.found-contant{
+    width:100%;
+    height: 350px;
+    background-color: #FCD7C3;
+    color: black;
+}
+.sub-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.found-contant img{
+    width:110px;
+    height: 110px;
+   padding-bottom: 10px;
+   border-radius: 50%;
+    padding-top: 10px;
+}
+.found-contant h4{
+    font-size: 20px;
+    font-weight: 300;
+    width: 400px;
+    text-align: center;
+}
+.social-media {
+
+text-align: center;
+
+}
+.social-media h3{
+    margin: 15px 0px 10px;
+    color: var(--pink);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.sub-social-m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.sub-social-m div i{
+ color: white;
+}
+.sub-social-m div{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    background-color: #A2124E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-social-m div:hover{
+    background-color: var(--blue);
+}
+/* End found-contat*/
+
+
+/* Start copyright-contat*/
+.copyright{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    background-color:var(--pink);
+    text-align: center;
+    color: white;
+    padding: 13px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* End copyright-contat*/
+
+
+
+
+/*                      Start media quary              */
+
+
+
+/*                      Laptops media quary              */
+
+@media  screen and (min-width: 1280px){
+
+}
+
+
+@media  screen and (max-width: 769px)and (min-width:1279px){
+    body{
+        background-color: green;
+    }
+    .sub-clients{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+     
+    
+    }
+    .div-img{
+        width: 80%;
+     
+    
+    }
+    .div-img img{
+        width: 100%;
+      
+    
+    }
+   
+
+}
+
+
+@media  screen and (min-width:768px) and (max-width:1023px) {
+
+  /*        main content        */
+  /*                    Mian Content                 */
+
+
+
+
+.m-c-left h3{
+    font-size: 20px;
+    font-weight: 300px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.m-c-left .title-service{
+    font-size: 23px;
+ 
+}
+
+.m-c-right img{
+    
+    background-position: fixed;
+    background-position: center;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    z-index: 88;
+    
+    
+}
+.m-c-right .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.m-c-right .left i{
+    font-size: 25px;
+   
+}
+.main-contant .left h6{
+    font-size: 22px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.main-contant .left p{
+    font-size: 22px;
+    
+}
+
+/*          packages    */
+
+/*                      Start packages page media quary              */
+
+.graphic-d-packages h3{
+    font-size: 26px;
+    margin: 19px 0px;
+    font-weight: 600;
+}
+.graphic-d-packages h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.sub-graphic-d-packages{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.grid-col{
+    display: grid;
+    place-items: center;
+    grid-area: 2/1/5/4;
+}    
+   
+
+
+}
+ 
+
+
+@media  screen and (max-width:767px){
+    .contact-header{
+    
+        display: grid;
+        grid-template-rows: 1fr;
+        margin: 0px auto;
+        justify-content: center;
+    }
+    .contact-h-left{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      display: inline-block;
+       justify-items: center;
+      margin-bottom: 10px;
+      margin: 0px auto;
+    }
+    .contact-h-left span{
+      font-size: 10px;
+      padding: 0px 2px;
+    }
+    .spans span{
+        font-size: 8px;
+    }
+
+    .contact-h-right p{
+        font-size: 13px;
+    }
+    .contact-h-right button{
+        width: 130px;
+        border: none; 
+        padding: 5px 10px;
+        background-color: var(--pink);
+        color: white;
+        border-radius: 65px;
+        cursor: pointer;
+        margin-left: 6px;
+        font-size: 12px;
+    }
+   /*                         Navbar       */
+   nav{
+    display: block;
+}
+.nav-left{
+    margin-left: 0px;
+}
+.nav-right{
+    display: none;
+}
+/* .nav-center {
+  display: none;
+
+} */
+
+/*               Side bar Menu */
+/* .nav-center{
+display: none;
+} */
+nav .nav-active{
+display: none;
+}
+side{
+width: 80%;
+background-color:white;
+ position: fixed;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ z-index: 999;
+
+}
+
+side {
+display: none;
+}
+side .nav-center{
+margin-top: -20px;
+}
+.nav-left {
+
+display: flex; 
+justify-content: space-between;
+align-items: center;
+
+}
+
+.nav, .burger{
+float: right;
+display: block;
+position: absolute;
+right: 0;
+margin-right: 10px;
+font-size: 30px;
+color: var(--pink);
+cursor: pointer;
+}
+
+.nav-center{
+display: block;
+
+
+}
+.nav-center ul {
+display: block;
+margin: 40px auto;
+}
+
+
+.nav-center ul li{
+font-size: 18px;
+margin: 40px auto;
+
+}
+
+
+/*                    Mian Content                 */
+.main-contant{
+    width: 100%;
+    height: 400px;
+    color: white;
+    display: grid;
+    grid-template-columns:  1fr ;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 10px;
+}
+.m-c-left{
+    position: absolute;
+    top: 100px;
+}
+.m-c-right{
+    width: 40%;
+    display: flex;
+   justify-content: flex-end;
+}
+.m-c-right .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+     right:10px;
+}
+.m-c-right .left i{
+    font-size: 15px;
+}
+.left h6{
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.left p{
+    margin-right: 10px;
+}
+
+.m-c-left h3{
+    font-size: 17px;
+    font-weight: 300px;
+    margin-bottom: 10px;
+ 
+}
+.m-c-left .title-service{
+    font-size: 12px;
+   
+}
+.m-c-left p{
+    
+    font-size: 12px;
+    font-weight: 200px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.m-c-right img{
+    
+    background-position: fixed;
+    background-position: center;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    z-index: 88;
+    
+    
+}
+
+/*Start  services */
+
+.service-content{
+    display: grid;
+    align-items: center;
+    padding: 10px 20px ;
+}
+.services{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 10px;
+    place-items: center;
+}
+
+.charts p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -13px;
+    padding-bottom: 10px;
+    /* background-color: orange; */
+}
+
+.charts:hover{
+    background-color: rgb(250, 242, 242);
+    border-radius: 8px;
+
+}
+
+.textAndButton-content{
+    width: 100%;
+    height: 180px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+    justify-items: center;
+    column-gap: 100;
+
+}
+.text{
+    width: 100%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 17px;
+    
+    padding-top: 4px;
+}
+.text h3{
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+
+.text p{
+    width: 400px;
+    font-size: 13px;
+    padding-top: 5px;
+    
+    
+}
+.textAndButton-content button{
+    width: 130px;
+    border: none; 
+    padding: 12px  19px;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 65px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sub-portfolio-img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+
+.portfolio-img img{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+.section-img div{
+    width: 100%;
+    background-color: white;
+    height: vh;
+    padding: 30px 30px;
+    border-radius: 12px;
+    margin-top: -37px;
+}
+
+.achievements{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: var(--pink);
+    border-color: #3f153f;
+    /* background-color: orange; */
+    text-align: center;
+}
+.sub-achievements{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    text-align: center;
+   }
+
+
+ 
+.sub-clients{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+ 
+
+}
+.div-img{
+    width: 80%;
+ 
+
+}
+.div-img img{
+    width: 100%;
+  
+
+}
+
+.vote{
+    width:98%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    
+}
+
+.vote img{
+    width: 70px;
+}
+.sub-vote{
+    width: 100%;
+    padding: 25px;
+    background-color: val(--softpink);
+    background-color: rgb(244, 230, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.found-contant{
+    width:100%;
+    height: 350px;
+    background-color: #FCD7C3;
+    color: black;
+    
+
+    
+}
+.sub-found{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.found-contant h4{
+    font-size: 18px;
+    font-weight: 300;
+    width: 400px;
+    text-align: center;
+    padding: 4px;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    background-color:var(--pink);
+    text-align: center;
+    color: white;
+    padding: 13px;
+}
+
+
+
+/*                      Start packages page media quary              */
+
+.graphic-d-packages h3{
+    font-size: 26px;
+    margin: 19px 0px;
+    font-weight: 600;
+}
+.graphic-d-packages h4{
+    font-size:26px;
+    font-weight: 600;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.sub-graphic-d-packages{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    padding: 0px 20px;
+    gap: 23px;
+  
+}
+
+
+}
+ 
+.main-contant{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right , var(--pink), var(--blue) );
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.m-c-left{
+    width: 50%;
+   
+}
+.m-c-left .title-service{
+    font-size: 43px;
+    font-weight: 600;
+    display: flex;
+    justify-self: start;
+}
+
+
+.m-c-right{
+    width: 40%;
+    display: flex;
+   justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.m-c-right .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.m-c-right .left i{
+    font-size: 15px;
+}
+.left h6{
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.left p{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+/*                      End media quary              */
