@@ -489,7 +489,7 @@ button:hover{
 .vote{
     width:100%;
    display: grid;
-   grid-template-columns: repeat(2,1fr);
+   grid-template-columns: repeat(2,200px);
     place-items: center;
     margin: 30px 15px;
   
@@ -499,7 +499,7 @@ button:hover{
 
 }
 .sub-vote{
-    width: 60%;
+    width: 100%;
     padding: 25px;
     background-color: val(--softpink);
     background-color: rgb(244, 230, 233);
