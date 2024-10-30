@@ -1432,7 +1432,7 @@ side .nav-center{
 /*          voits               */
 
 .vote{
-    width:98%;
+    width:90%;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
