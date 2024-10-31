@@ -1401,13 +1401,18 @@ side .nav-center{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
-    justify-items: center;
+    place-items: center;
+    place-content: center;
     padding: 20px;
     text-align: center;
    }
 
-
+.achievements img{
+    width: 60%;
+    height: 130px;
+    /* background-color: green; */
+    margin-bottom: -26px;
+}
  
 .sub-clients{
     width: 100%;
@@ -1432,7 +1437,7 @@ side .nav-center{
 /*          voits               */
 
 .vote{
-    width:60%;
+    width:80%;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -1445,7 +1450,7 @@ side .nav-center{
     width: 70px;
 }
 .sub-vote{
-    width: 90%;
+    width: 100%;
     padding: 25px;
     background-color: val(--softpink);
     background-color: rgb(244, 230, 233);
