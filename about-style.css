@@ -948,6 +948,7 @@ margin: 40px auto;
 /*                   Aour acheivement            */
 
 .achievements{
+    background-color: var(--pink);
     color: white;
 }
 
