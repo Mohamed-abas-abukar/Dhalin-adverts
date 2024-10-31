@@ -948,10 +948,11 @@ margin: 40px auto;
 /*                   Aour acheivement            */
 
 .achievements{
-    background-color: var(--pink);
+    width: 100%;
     color: white;
+    background-color: var(--pink);
+    text-align: center;
 }
-
 }
  
 /*                      End media quary              */
