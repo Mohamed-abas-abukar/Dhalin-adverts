@@ -18,6 +18,10 @@
   
 }
 
+body{
+
+    background-color: var(--notmine);
+}
 /*Start contact-section */
 .contact-section{
     width: 100%;
