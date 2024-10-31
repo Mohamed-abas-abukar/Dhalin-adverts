@@ -488,9 +488,10 @@ button:hover{
 
 .vote{
     width:100%;
-   display: grid;
-   grid-template-columns: repeat(2,200px);
+    display: grid;
+    grid-template-columns: repeat(2,200px);
     place-items: center;
+    place-content:center;
     margin: 30px 15px;
   
 }
