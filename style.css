@@ -1394,7 +1394,7 @@ side .nav-center{
     display: flex;
     flex-direction: column;
     color: var(--pink);
-    border-color: #3f153f;
+    
     /* background-color: orange; */
     text-align: center;
 }
