@@ -953,6 +953,14 @@ margin: 40px auto;
     background-color: var(--pink);
     text-align: center;
 }
+
+.found-contant h4{
+    font-size: 16px;
+    font-weight: 300;
+    width: 400px;
+    text-align: center;
+    padding: 4px;
+}
 }
  
 /*                      End media quary              */
