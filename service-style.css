@@ -129,7 +129,7 @@
     align-items: center;
 }
 .g-charts{
-  width: 340px;
+    width: 400px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -139,13 +139,14 @@
     color: white;
     border-radius: 10px;
     padding: 40px 10px;
-      margin-left: 20px;
+     
 }
 
 .g-charts h5{
     font-size: 24px;
     font-weight: 700;
     color: var(--blue);
+     margin-left: 30px;
 }
 
 .g-d-p-4{
@@ -159,7 +160,7 @@
     font-size: 30px;
     font-weight: 600;
     color:var(--pink);
-     margin-left: 20px;
+     margin-left: 30px;
 }
 
 
@@ -828,7 +829,8 @@ margin: 40px auto;
     font-size:26px;
     font-weight: 600;
     margin-bottom: 26px;
-    text-align: center;
+  
+  
 }
 
 .sub-graphic-d-packages{
