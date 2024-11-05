@@ -129,7 +129,7 @@
     align-items: center;
 }
 .g-charts{
-    width: 340px;
+    width: 300px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -165,7 +165,7 @@
 
 
 .g-charts ul{
-    width: 240px;
+    width: 100%;
     /* background-color: orange; */
     font-size:12px;
 
