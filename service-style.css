@@ -654,6 +654,12 @@ margin: 40px auto;
     /* background-color: orange; */
 }
 
+.charts img{
+    width: 60px;
+    height: 100px;
+    border-radius: 50%;
+   margin-bottom: -18px;
+}
 .charts:hover{
     background-color: rgb(250, 242, 242);
     border-radius: 8px;
