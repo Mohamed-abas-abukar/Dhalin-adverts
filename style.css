@@ -245,7 +245,7 @@ button:hover{
     font-weight: 600;
 }
 .services{
-    max-width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns:repeat(4,200px) ;
     padding-top: 10px;
@@ -1301,7 +1301,7 @@ side .nav-center{
     padding: 10px 20px ;
 }
 .services{
-    max-width: 100%;
+   width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     padding-top: 10px;
