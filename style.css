@@ -402,6 +402,7 @@ button:hover{
     color: var(--pink);
     justify-items: center;
     align-items: center;
+    background-color: #F6F6F6;
 }
 .achievements img{
     width: 80%;
