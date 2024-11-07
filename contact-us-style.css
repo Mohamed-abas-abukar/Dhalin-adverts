@@ -184,7 +184,7 @@ textarea{
 @media  screen and (min-width:768px) and (max-width:1023px) {
     side{
         display: none;
-        width: 100%;
+        width: 60%;
         background-color:white;
          position: fixed;
          top: 0;
