@@ -203,7 +203,7 @@
 
 
 .achieve-about{
-    
+    background-color: #F6F6F6
     color: white;
 }
 
@@ -631,24 +631,6 @@ margin: 40px auto;
     margin-top: -37px;
 }
 
-.achievements{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    color: var(--pink);
-    border-color: #3f153f;
-   background-color: orange; 
-    text-align: center;
-}
-.sub-achievements{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-items: center;
-    padding: 20px;
-    text-align: center;
-   }
 
 
  
@@ -947,12 +929,25 @@ margin: 40px auto;
  
 /*                   Aour acheivement            */
 
- .achieve-about {
+ .achievements{
     width: 100%;
-    
-
+    display: flex;
+    flex-direction: column;
+    color: var(--pink);
+    border-color: #3f153f;
+    background-color: #F6F6F6
     text-align: center;
 }
+.sub-achievements{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    text-align: center;
+   }
+
 
 .found-contant h4{
     font-size: 16px;
