@@ -1501,16 +1501,18 @@ side .nav-center{
 
 
 }
+@media  screen and (max-width:400px){
 
-@media screen and (max-width:400px){
     .found-contant{
     width:100%; 
-
+   background-color:green;
+      
     
 }
 .found-contant h4{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
+    width:200px;
     text-align: center;
     padding: 4px;
 }
